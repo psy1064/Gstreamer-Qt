@@ -1,0 +1,9 @@
+prefix=${pcfiledir}/../../..
+includedir=${prefix}/include
+
+Name: gstcodectimestamper
+Description: gst-plugins-bad: gstcodectimestamper
+Version: 1.22.1
+Requires: gstcodectimestamper
+Cflags: -I${includedir}
+
